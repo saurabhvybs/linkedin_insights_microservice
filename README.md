@@ -116,21 +116,5 @@ GET /api/pages/{page_id}
   ```
 - Verify your `.env` file has the correct `MONGO_URI`
 
-### **3️⃣ Server Not Starting (`Address already in use`)**
-- Kill the existing process using port 8000:
-  ```bash
-  lsof -i :8000  # Find process ID
-  kill -9 <PID>  # Kill process
-  ```
+AND also your LI_AT Linkedin cookies 
 
----
-
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-Happy coding! 🚀
