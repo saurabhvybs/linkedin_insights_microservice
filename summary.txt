@@ -1,0 +1,13 @@
+This project starts from main.py and uses FAST API 
+
+there you have a web scraper service available which scrapes the data from the linkedin 
+
+and all the docs for this you will get on swagger UI 
+
+i.e http://127.0.0.1:8000/docs#/
+
+once your server is up.
+
+here the scraped data is formatted in a specific order as serialization with pydantic using mongo db was not fully giving the result 
+
+and also the scrapped data got stored in the mongoDB from there the other end points will consume it .
