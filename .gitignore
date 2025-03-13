@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+.venv/
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Ignore logs and caches
+*.log
+
+# Ignore dependencies (if using pip freeze)
+requirements.txt.lock
