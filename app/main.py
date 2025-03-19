@@ -3,7 +3,7 @@ from app.api.routes.page import router as page_router
 from app.api.routes.post import router as post_router
 from app.api.routes.user import router as user_router
 from app.api.routes.scraper import router as scraper_router
-from app.core.database import scraper_collection, check_mongo_connection
+from app.core.database import scraper_collection, check_mongo_connection, close_mongo_connection
 
 app = FastAPI(
     title="LinkedIn Insights Microservice",

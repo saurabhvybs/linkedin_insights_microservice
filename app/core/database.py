@@ -43,7 +43,7 @@ async def check_mongo_connection():
 # Close MongoDB Connection on FastAPI Shutdown
 async def close_mongo_connection():
     if client:
-        client.close()
+        client.close() 
         print("🔌 MongoDB Connection Closed.")
 
 # Export collections for easy import
